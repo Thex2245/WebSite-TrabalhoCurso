@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a2d31;
+}
+
+nav {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: #97c1cf solid 1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: #1d343a;
+}
+
+button {
+    width: auto;
+    height: auto;
+    background-color: #1d343a;
+    border: #97c1cf solid 1px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.navbar {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #97c1cf;
+}
+
+.navbar:hover {
+    transition-duration: 0.2s;
+    padding: 2px;
+    color: #fff;
+}
+
+.a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.jogo {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inicio {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+
+.ola, .user {
+    display: flex;
+    color: #97c1cf;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    gap: 8px;
+    font-size: 65px;
+    margin: 0px;
+}
+
+.descricao {
+    display: flex;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    color: #ffff;
+}
+
+.section2 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.semfundo {
+    display: flex;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.princesa {
+    display: flex;
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: #97c1cf solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    width: 500px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-right: 280px;
+    gap: 30px;
+    padding: 25px;
+    border: #97c1cf solid 1px;
+    border-radius: 50px;
+    position: absolute;
+    background-color: #1d343a;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    z-index: 0;
+}
+
+.inicio2 {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+    gap: 30px;
+    position: relative;
+}
+
+.sobre {
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.titulosobre {
+    width: 80px;
+    height: auto;
+    margin: auto;
+    color: #97c1cf;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.psobre {
+    width: 500px;
+    height: 70px;
+    margin: 0px 0px 0px 0px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    border-top: #97c1cf solid 1px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #111516;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    position: relative;
+}
+
+.logoecopy {
+    position: absolute;
+    left: 10px;
+    width: 420px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.logo {
+    width: 220px;
+    height: auto;
+}
+
+.direitos {
+    width: 420px;
+    height: 22px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(145, 145, 145);
+    margin: 0px;
+}
+
+.centro {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.voltar {
+    width: 120px;
+    height: 22px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    text-decoration: none;
+}
